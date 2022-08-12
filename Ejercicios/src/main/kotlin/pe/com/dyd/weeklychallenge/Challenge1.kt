@@ -20,3 +20,15 @@ package pe.com.dyd.weeklychallenge
  *
  */
 
+fun main() {
+    println(isAnagram("Prueba", "prueba"))
+    println(isAnagram("amor", "Roma"))
+}
+
+fun isAnagram(wordOne: String, wordTwo: String): Boolean {
+    if (wordOne.uppercase() == wordTwo.uppercase()) {
+        return false
+    }
+
+    return wordOne.uppercase().toCharArray().sortedArray().contentEquals(wordTwo.uppercase().toCharArray().sortedArray());
+}
