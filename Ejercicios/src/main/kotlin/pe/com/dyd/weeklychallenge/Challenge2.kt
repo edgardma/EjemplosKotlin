@@ -18,3 +18,38 @@ package pe.com.dyd.weeklychallenge
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
+
+fun main() {
+    fibonacci1()
+}
+
+fun fibonacci1() {
+    var counter: Int = 1
+    var n0: Long = 0
+    var n1: Long = 1
+
+    while (counter <= 50) {
+        println(n0)
+
+        val fib = n0 + n1
+        n0 = n1
+        n1 = fib
+
+        counter++
+    }
+}
+
+fun fibonacci2() {
+
+    var n0: Long = 0
+    var n1: Long = 1
+
+    (1..50).forEach { _ ->
+
+        println(n0)
+
+        val fib = n0 + n1
+        n0 = n1
+        n1 = fib
+    }
+}
