@@ -1,9 +1,9 @@
 package pe.com.dyd.weeklychallenge
-
+/*
 import android.graphics.BitmapFactory
 import java.net.URL
 import kotlin.math.roundToInt
-
+**/
 /*
  * Reto #5
  * ASPECT RATIO DE UNA IMAGEN
@@ -23,7 +23,7 @@ import kotlin.math.roundToInt
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-
+/*
 class Challenge5() {
 
     fun aspectRatio(url: String) {
@@ -64,3 +64,4 @@ class Challenge5() {
     }
 
 }
+*/
