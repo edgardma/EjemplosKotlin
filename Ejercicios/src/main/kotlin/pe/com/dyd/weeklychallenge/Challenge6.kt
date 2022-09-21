@@ -24,7 +24,7 @@ fun main() {
 }
 
 fun reverse(text: String): String {
-    val textCount = text.count () - 1
+    val textCount = text.count() - 1
     var reversedText = ""
     for (index in 0..textCount) {
         reversedText += text[textCount - index]
