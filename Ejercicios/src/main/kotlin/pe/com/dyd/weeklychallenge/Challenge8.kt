@@ -24,7 +24,7 @@ fun main() {
 
 fun decimalToBinary(decimal: Int): String {
     var number = decimal
-    var binary = "";
+    var binary = ""
 
     while (number != 0) {
         val reminder = number % 2
